@@ -123,10 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="average_score.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="sum_of_digits.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="average_score.h" />
     <ClInclude Include="sum_of_digits.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
