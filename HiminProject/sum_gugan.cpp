@@ -10,7 +10,7 @@ void solve_sum_gugan(){
     int suNo, quizNo;
     cin >> suNo >> quizNo;
     int A[100001] = {};
-    int S[100001] = {}; // 인덱스 1부터 사용하니까
+    int S[100001] = {}; // 인덱스 1부터 사용하니까, 배열을 0으로 초기화
 
     for (int i = 1; i <= suNo; i++) {
 		cin >> A[i];
