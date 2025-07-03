@@ -1,10 +1,10 @@
 #include <iostream> 
-#include "average_score.h"
+#include "sum_gugan.h"
 using namespace std;  
 
 
 
 int main() {
-    solve_average_score();  // 여기서 함수 호출
+    solve_sum_gugan();  // 여기서 함수 호출
     return 0;
 }

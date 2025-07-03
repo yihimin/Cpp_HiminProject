@@ -12,14 +12,14 @@ void solve_average_score() {
 	}
 
 	int sum = 0;
-	int max_score = A[0];
+	int M = A[0];
 
 	for (int i = 0; i < N; i++) {
-		if (A[i] > max_score) {
-			max_score = A[i];
+		if (A[i] > M) {
+			M = A[i];
 		}
 		sum += A[i];
 	}
-	double average = (double)sum * 100 / max_score / N;
+	double average = (double)sum * 100 / M / N;
 	cout << average;
 }
