@@ -124,10 +124,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="average_score.cpp" />
+    <ClCompile Include="deque.cpp" />
     <ClCompile Include="good_number.cpp" />
     <ClCompile Include="good_number2.cpp" />
     <ClCompile Include="jumong.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="slide_window.cpp" />
     <ClCompile Include="sum_gugan.cpp" />
     <ClCompile Include="sum_of_digits.cpp" />
     <ClCompile Include="sum_twopoint.cpp" />
@@ -135,9 +137,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="average_score.h" />
+    <ClInclude Include="deque.h" />
     <ClInclude Include="good_number.h" />
     <ClInclude Include="good_number2.h" />
     <ClInclude Include="jumong.h" />
+    <ClInclude Include="slide_window.h" />
     <ClInclude Include="sum_gugan.h" />
     <ClInclude Include="sum_of_digits.h" />
     <ClInclude Include="sum_twopoint.h" />

@@ -48,6 +48,12 @@
     <ClCompile Include="good_number2.cpp">
       <Filter>소스 파일\problem2</Filter>
     </ClCompile>
+    <ClCompile Include="slide_window.cpp">
+      <Filter>소스 파일\problem2</Filter>
+    </ClCompile>
+    <ClCompile Include="deque.cpp">
+      <Filter>소스 파일\problem2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sum_of_digits.h">
@@ -72,6 +78,12 @@
       <Filter>소스 파일\problem2</Filter>
     </ClInclude>
     <ClInclude Include="good_number2.h">
+      <Filter>소스 파일\problem2</Filter>
+    </ClInclude>
+    <ClInclude Include="slide_window.h">
+      <Filter>소스 파일\problem2</Filter>
+    </ClInclude>
+    <ClInclude Include="deque.h">
       <Filter>소스 파일\problem2</Filter>
     </ClInclude>
   </ItemGroup>
