@@ -127,11 +127,13 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="sum_gugan.cpp" />
     <ClCompile Include="sum_of_digits.cpp" />
+    <ClCompile Include="vector_gugan.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="average_score.h" />
     <ClInclude Include="sum_gugan.h" />
     <ClInclude Include="sum_of_digits.h" />
+    <ClInclude Include="vector_gugan.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
