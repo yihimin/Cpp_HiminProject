@@ -24,7 +24,7 @@ void solve_deque()
         }
         //2. 현재 값 삽입
 		mydeque.push_back(Node(i, now ));
-        //3. 윈도우 범위를 벗어난 값은 제거
+        //3. 윈도우 범위를 벗어난 값은 제거 (왼쪽 인덱스가 너무 오래된 값)
         if (mydeque.front().first <= i - L) {
             mydeque.pop_front();
         }
