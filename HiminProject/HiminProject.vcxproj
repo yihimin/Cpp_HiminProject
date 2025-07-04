@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="average_score.cpp" />
+    <ClCompile Include="jumong.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="sum_gugan.cpp" />
     <ClCompile Include="sum_of_digits.cpp" />
@@ -132,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="average_score.h" />
+    <ClInclude Include="jumong.h" />
     <ClInclude Include="sum_gugan.h" />
     <ClInclude Include="sum_of_digits.h" />
     <ClInclude Include="sum_twopoint.h" />

@@ -39,6 +39,9 @@
     <ClCompile Include="sum_twopoint.cpp">
       <Filter>소스 파일\problem2</Filter>
     </ClCompile>
+    <ClCompile Include="jumong.cpp">
+      <Filter>소스 파일\problem2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sum_of_digits.h">
@@ -54,6 +57,9 @@
       <Filter>소스 파일\problem</Filter>
     </ClInclude>
     <ClInclude Include="sum_twopoint.h">
+      <Filter>소스 파일\problem2</Filter>
+    </ClInclude>
+    <ClInclude Include="jumong.h">
       <Filter>소스 파일\problem2</Filter>
     </ClInclude>
   </ItemGroup>
