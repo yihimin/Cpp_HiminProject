@@ -1,10 +1,10 @@
 #include <iostream> 
-#include "sum_twopoint.h"
+#include "stack.h"
 using namespace std;  
 
 
 
 int main() {
-    solve_sum_twopoint();  // 여기서 함수 호출
+    solve_stack();  // 여기서 함수 호출
     return 0;
 }

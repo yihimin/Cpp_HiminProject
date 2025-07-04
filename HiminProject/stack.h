@@ -1,2 +1,2 @@
 #pragma once
-void solve_stact();
+void solve_stack();
