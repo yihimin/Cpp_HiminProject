@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\problem">
       <UniqueIdentifier>{cf445e9c-ac25-4223-966c-2f277ea11e2d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\problem2">
+      <UniqueIdentifier>{ec78342e-1653-447c-bae0-88e43d04c75a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sum_of_digits.cpp">
@@ -33,6 +36,9 @@
     <ClCompile Include="vector_gugan.cpp">
       <Filter>소스 파일\problem</Filter>
     </ClCompile>
+    <ClCompile Include="sum_twopoint.cpp">
+      <Filter>소스 파일\problem2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sum_of_digits.h">
@@ -46,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="vector_gugan.h">
       <Filter>소스 파일\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="sum_twopoint.h">
+      <Filter>소스 파일\problem2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

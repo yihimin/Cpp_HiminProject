@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include "vector_gugan.h"
 using namespace std;
 
 void solve_vector_gugan() {
