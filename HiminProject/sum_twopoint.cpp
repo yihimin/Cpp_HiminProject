@@ -3,9 +3,9 @@
 using namespace std;
 
 void solve_sum_twopoint() {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
 
     int N;
     cin >> N;
@@ -15,21 +15,19 @@ void solve_sum_twopoint() {
     int sum = 1;
     while (end_index != N) // end_index == N 인 경우(본인자신_를 제외, count의 초기값이 1인 이유
     {
-		sum += end_index + 1; // end_index는 0부터 시작하니까, +1을 해줘야 함
-		end_index++;
-		// sum == N, sum > N, sum < N에 따라 처리
         if (sum == N) {
             count++;
-        }
-        while (sum > N) {
-            sum -= start_index; // start_index는 0부터 시작하니까, +1을 해줘야 함
+            sum = sum - start_index;
             start_index++;
-            if (sum == N) {
-                count++;
-            }
-		}
-
+        }
+        if (sum > N) {
+            sum = sum - start_index;
+            start_index++;
+        }
+        else {
+            end_index++;
+            sum = sum + end_index;
+        }
     }
     cout << count << "\n";
-
 }
