@@ -12,7 +12,7 @@ void solve_stack()
     int N;
     cin >> N;
     vector<int> A(N, 0);
-    vector<int> ans(N, -1);
+    vector<int> ans(N, 0);
     for (int i = 0; i < N; i++) {
         cin >> A[i];
     }
@@ -29,8 +29,11 @@ void solve_stack()
         myStack.push(i);
 	}
 
-    for (int i = 0; i < N; i++) {
-        cout << ans[i] << " ";
+    for (!myStack.empty()) {
+		ans[myStack.top()] = -1; // 스택에 남아있는 인덱스는 다음 큰 수가 없으므로 -1로 설정
+		myStack.pop();
     }
-	cout << "\n";
+	for (int i = 0; i < N; i++) {
+        cout << ans[i] << " ";
+	}
 }
