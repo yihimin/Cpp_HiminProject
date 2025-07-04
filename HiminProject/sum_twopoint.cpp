@@ -20,7 +20,7 @@ void solve_sum_twopoint() {
             sum = sum - start_index;
             start_index++;
         }
-        if (sum > N) {
+        else if (sum > N) {
             sum = sum - start_index;
             start_index++;
         }
