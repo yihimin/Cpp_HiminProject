@@ -25,7 +25,7 @@ void solve_deque()
         //2. 현재 값 삽입
 		mydeque.push_back(Node(i, now ));
         //3. 윈도우 범위를 벗어난 값은 제거 (왼쪽 인덱스가 너무 오래된 값)
-        if (mydeque.front().first <= i - L) {
+        if (mydeque.front().first < i - L + 1) { // first <= i - L보다 등호없이 미만, 초과가 더 견고한 스타일
             mydeque.pop_front();
         }
         //4. 정답: 현재 최소값 출력
